@@ -1,0 +1,9 @@
+name: 'Drupal Rector'
+description: 'GitHub action to (dry) run Drupal Rector to spot deprecations.'
+author: 'Guillaume Duveau'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'code'
+  color: 'orange'
