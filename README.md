@@ -4,12 +4,11 @@ This GitHub action allows to make a dry run of Drupal Rector to spot deprecation
 
 ## Requirements
 
-+ A Drupal project;
-+ A [````rector.php```` file](https://www.palantir.net/rector/adding-drupal-rector-site)
++ A Drupal project with [Drupal Rector installed & working locally](https://www.palantir.net/rector/adding-drupal-rector-site)
 
 ## Installation
 
-In the root of your Drupal project, create ````.github/workflows/drupalRector.yml````:
+Create ````.github/workflows/drupalRector.yml````:
 
 ````
 name: Drupal Rector
@@ -24,5 +23,3 @@ jobs:
         - uses: actions/checkout@v3
         - uses: guix77/drupal-rector-github-action@v8.1.0
 ````
-
-You can customize the trigger of course (\\\\on: [pull_request]\\\\).
