@@ -1,5 +1,5 @@
 #!/bin/sh
-composer require palantirnet/drupal-rector --dev --no-update
+composer require --dev palantirnet/drupal-rector --no-update
 vendor/bin/rector process web/modules/custom --dry-run
 status=$?
 exit $status
