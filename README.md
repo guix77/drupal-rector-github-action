@@ -22,7 +22,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v3
-        - uses: guix77/drupal-rector-github-action@v8.1
+        - uses: guix77/drupal-rector-github-action@v8.1.0
 ````
 
 You can customize the trigger of course (\\\\on: [pull_request]\\\\).
