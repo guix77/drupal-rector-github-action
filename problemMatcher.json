@@ -1,0 +1,15 @@
+{
+    "owner": "rector",
+    "pattern": [
+      {
+        "regexp": "\\d+\\)\\s([a-zA-Z\\/_\\.]+):(\\d+)",
+        "file": 1,
+        "line": 2
+      },
+      {
+        "regexp": "\\s\\*\\s([a-zA-Z]+)",
+        "message": 1,
+        "loop": true
+      }
+    ]
+}
